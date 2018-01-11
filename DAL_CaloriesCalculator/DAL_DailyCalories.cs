@@ -23,7 +23,7 @@ namespace DAL_CaloriesCalculator
         /// <returns></returns>
         public List<List<string>> getDishes()
         {
-            lines = File.ReadAllLines(@"C:\Users\LittleboyQti\Desktop\Dishes.txt");
+            lines = File.ReadAllLines("Dishes.txt");
             if (lines != null)
             {
                 listFoodByLine = new List<string>();
